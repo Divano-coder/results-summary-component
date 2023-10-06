@@ -11,7 +11,7 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Results summary component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -24,12 +24,29 @@
         color: hsl(228, 45%, 44%);
       }
     </style>
+    <!-- Me quede en cambiar los articles por section -->
   </head>
   <body>
-    Your Result 76 of 100 Great You scored higher than 65% of the people who
-    have taken these tests. Summary Reaction 80 / 100 Memory 92 / 100 Verbal 61
-    / 100 Visual 72 / 100 Continue
-
+    <main>
+      <article class="container-color">
+        <header class="header">Your Result</header>
+        <section class="circle">
+          <p class="calification">76</p>
+          <p class="calification-max">of 100</p>
+        </section>
+        <div class="calification-title">Great</div>
+        <footer class="footer">
+          Your performance exceed 65% of the people conducting the test here!
+        </footer>
+      </article>
+      <div class="container-white">
+        <article class="white-data">
+          <header class="title">Summary</header>
+          <section class="injection-data" id="injection-data"></section>
+          <button>Continue</button>
+        </article>
+      </div>
+    </main>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
@@ -38,5 +55,6 @@
       <a href="https://github.com/Divano-coder" target="_blank">Divano-coder</a
       >.
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

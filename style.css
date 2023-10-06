@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.category1 {
+  color: red;
+}
+
+.category2 {
+  color: orange;
+}
+
+.category3 {
+  color: green;
+}
+
+.category4 {
+  color: blue;
+}
+
+.container-color .calification-title {
+  text-align: center;
+}
+
+.container-color .circle {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: thin solid black;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.container-color .footer {
+  text-align: center;
+}
+
+.container-color header {
+  text-align: center;
+}
+
+.container-color {
+  border: thin solid black;
+}
+
+.letter-size {
+  /* color: red; */
+}
