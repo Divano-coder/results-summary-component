@@ -15,8 +15,9 @@ fetch("data.json")
       p.innerHTML = `
         <img src="${item.icon}" alt="Logo of category" class="letter-size">
         <span class="letter-size ${categories[index].category}">${item.category}</span>
-        <span class="letter-size score">${item.score}</span><span class="letter-size total-score">/100</span>
+        <span class="letter-size score">${item.score}</span><span class="letter-size total-score">/     100</span>
       `;
+      p.classList.add(`paragraph-${[index]}`);
       score.appendChild(p);
     });
   })
