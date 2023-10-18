@@ -362,8 +362,8 @@ img {
   /* ATTRIBUTION - DESKTOP */
 
   .attribution {
-    border: thin solid black;
     margin-left: auto;
     margin-right: auto;
+    font-size: 18px;
   }
 }
