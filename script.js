@@ -13,9 +13,9 @@ fetch("data.json")
     data.forEach((item, index) => {
       const p = document.createElement("p");
       p.innerHTML = `
-        <img src="${item.icon}" alt="Logo of category" class="letter-size">
-        <span class="letter-size ${categories[index].category}">${item.category}</span>
-        <span class="letter-size score">${item.score}</span><span class="letter-size total-score">/     100</span>
+        <img src="${item.icon}" alt="Logo of category">
+        <span class="${categories[index].category}">${item.category}</span>
+        <span class="score">${item.score}</span><span class="total-score">/     100</span>
       `;
       p.classList.add(`paragraph-${[index]}`);
       score.appendChild(p);
